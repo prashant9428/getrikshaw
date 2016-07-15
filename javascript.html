@@ -1,0 +1,25 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body >
+       
+        
+      <input type="button" value="click me please" name="b1" onclick="msg()"/>
+      
+Current Time: <span id="txt"></span>  
+<script>  
+var today=new Date();  
+
+var h = today.getHours();
+var m = today.getMinutes();
+var s = today.getSeconds();
+document.getElementById('txt').innerHTML= h+":" +m +":"+s;  
+</script>  
+    </body>
+</html>
